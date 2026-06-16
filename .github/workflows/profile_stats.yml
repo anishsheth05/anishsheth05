@@ -8,7 +8,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    environment:
+      name: PAT
+      deployment: false
+    
     permissions:
       contents: write
 
