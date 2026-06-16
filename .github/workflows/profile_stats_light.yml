@@ -1,4 +1,4 @@
-name: Update README cards
+name: Update light README cards
 
 on:
   schedule:
